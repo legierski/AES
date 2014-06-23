@@ -68,6 +68,12 @@ var decrypted = GibberishAES.dec('U2FsdGVkX1+nnmEfHgoGQpwSPcT+mDZHxhr8XhEsmIvT2J
 
 ## Testing
 
+Run unit tests:
+
+``` bash
+$ ./vendor/bin/phpunit
+```
+
 Test compliance with [PSR2 coding style guide](http://www.php-fig.org/psr/psr-2/):
 
 ``` bash
