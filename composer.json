@@ -1,0 +1,26 @@
+{
+    "name": "legierski/aes",
+    "description": "OpenSSL-compatible AES library",
+    "keywords": ["AES", "Rijndael", "OpenSSL", "CryptoJS", "Gibberish AES", "mcrypt", "encryption", "decryption"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Peter Legierski",
+            "email": "peter@legierski.net",
+            "homepage": "http://legierski.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "ext-openssl": "*"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Legierski\\AES": "src/"
+        }
+    }
+}
